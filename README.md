@@ -1,6 +1,6 @@
 # **FastAPI Logging with Future ELK Integration**  
 
-This repository contains a **FastAPI application** with **structured logging**. The project currently focuses on **logging with Uvicorn** and will later integrate **the ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management**.  
+This repository contains a **FastAPI application** with **structured logging**. The project currently focuses on **logging in fast API using python logging** and will later integrate **the ELK Stack (Elasticsearch, Logstash, Kibana) for centralized log management**.  
 
 ## **Current Features**  
 ✅ FastAPI application with basic routes  
@@ -60,27 +60,11 @@ The application will be available at:
   "line": 20,
   "message": "FastAPI application started..."
 } -->
-```
+<!-- ``` -->
 
----
 
 ## **Future Plans: ELK Stack Integration**  
 🚀 **Coming Soon:** This project will integrate **Elasticsearch, Logstash, and Kibana** to:  
 - Centralize logs from multiple instances  
 - Enable real-time log search and visualization  
 - Monitor API performance and errors  
-
----
-<!-- 
-## **Next Steps**  
-🔹 Improve log formatting and add request metadata  
-🔹 Implement ELK stack for centralized logging  
-🔹 Create Kibana dashboards for log analysis  
-
---- -->
-
-## **License**  
-This project is licensed under the **MIT License**.  
-
-## **Author**  
-[Stephen Odhiambo]  
